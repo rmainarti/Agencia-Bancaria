@@ -1,4 +1,4 @@
-﻿using Banco;
+﻿using Banco.Contas;
 
 ContaCorrente ContadoAndre = new ContaCorrente();
 
@@ -54,4 +54,29 @@ else
 {
     Console.WriteLine("Saque não realizado, valor deseja maior que saldo em conta");
 }
+
+*/
+
+
+
+// comentado como 2.0 em Classe Conta Corrente 
+//essa parte usa uma Classe CLiente para pegar infos como Nome, cpf e profissão
+
+/*Cliente cliente= new Cliente();
+cliente.nome = "André Silva";
+cliente.cpf = "125399019452";
+cliente.profissao = "Contador";
+
+ContaCorrente conta   = new ContaCorrente();
+conta.titular = cliente;
+conta.conta = "1010-X";
+conta.numero_agencia = 15;
+conta.saldo = 100;
+
+Console.WriteLine("Titular = " +conta.titular.nome);
+Console.WriteLine("Cpf = " + conta.titular.cpf);
+Console.WriteLine("Profissão " + conta.titular.profissao);
+Console.WriteLine("Num conta " + conta.conta);
+Console.WriteLine("Saldo = " + conta.saldo);
+Console.WriteLine("Num Agência " + conta.numero_agencia);
 */
